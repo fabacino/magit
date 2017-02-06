@@ -8,3 +8,6 @@ Fixes since v2.10.1
   because "--mainline" was treated as a switch rather than an option,
   and because of a too-strict assertion that only single-parent commits
   can be cherry-picked.  #2978
+
+* A bug fix in the last release broke the visit-file functionality in
+  diff buffers displayed while committing.  #2955, #2981
